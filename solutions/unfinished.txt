@@ -1,3 +1,5 @@
 152
 213
 55
+128 - know your data structure time complexity
+136 - NOT easy
