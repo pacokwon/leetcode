@@ -2,20 +2,18 @@
 
 class Solution:
     def canJump(self, nums):
-        pos = 0
-        target = len(nums) - 1
-        visited = [False] * len(nums)
+        length = len(nums)
+        dest = length - 1
+        index = length - 2
+        while index >= 0:
+            if nums[index] + index >= dest:
+                dest = index
 
-        while pos < target:
-            if visited[pos]:
-                return False
+            index -= 1
 
-            visited[pos] = True
-            dist = nums[pos]
-            if dist == 0:
-                pos -= 1
+        return dest == 0
 
-            oldPos = pos
-            pos += dist
-
-        return True
+if __name__ == "__main__":
+    sol = Solution()
+    nums = [3,2,1,0,4]
+    print(sol.canJump(nums))

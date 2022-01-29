@@ -2,3 +2,5 @@
 128 - know your data structure time complexity
 136 - NOT easy
 713 - O(n²) is not enough
+300, 673 - LIS
+384
