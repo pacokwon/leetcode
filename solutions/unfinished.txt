@@ -5,3 +5,4 @@
 300, 673 - LIS
 384
 23 - O(n²) is not enough
+18
