@@ -6,3 +6,4 @@
 384
 23 - O(n²) is not enough
 18
+2092 - TLE, but the solutions are similar to ones in discussion..?
